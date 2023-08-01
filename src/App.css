@@ -31,4 +31,16 @@ button:hover {
   background-color: #0056b3;
 }
 
+h1 {
+  font-size: 36px; 
+  font-weight: 600; 
+  color: #333; 
+  text-align: center;
+  font-Style: "italic";
+  font-Family: "Georgia";
+}
+label:last-of-type {
+  margin-bottom: 10px; /* Adjust the value as per your desired space */
+}
+
 /* Add more styling if needed */
