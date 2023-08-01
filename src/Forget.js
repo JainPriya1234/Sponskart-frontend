@@ -32,7 +32,7 @@ const Forget = () => {
       return (
         <form onSubmit={handleSubmit}>
           <h1>Sponskart</h1>
-          <h2>FORGET PASSWORD</h2>
+          <h2>FORGOT PASSWORD</h2>
           <p style={{textAlign: "center"}}>If you have an account?{" "}
           <Link to="/signin" style={{ color: "voilet" }}>Sign in</Link>
           </p>

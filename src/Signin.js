@@ -40,7 +40,7 @@ const Signin = () => {
       <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
       <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
       <button type="submit">Login</button>
-      <Link to='/forget' style={{ textAlign: "center" , color:"voilet"  }}>ForgetPassword?</Link>
+      <Link to='/forget' style={{ textAlign: "center" , color:"voilet"  }}>Forgot Password?</Link>
     </form>
   );
 };
