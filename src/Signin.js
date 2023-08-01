@@ -33,13 +33,14 @@ const Signin = () => {
     <form onSubmit={handleSubmit}>
       <h1>Sponskart</h1>
         <h3 style={{ textAlign: "center" }}>It's Free to Sign Up and Get Started.</h3>
-        <p style={{ textAlign: "center" , color:"#676767"  }}>
+        <p style={{ textAlign: "center" , color:"voilet"  }}>
         Don’t have an account?{" "}
-        <Link to="/">Register</Link>
+        <Link to="/" color="voilet">Register</Link>
       </p>  
       <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
       <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
       <button type="submit">Login</button>
+      <Link to='/forget' style={{ textAlign: "center" , color:"voilet"  }}>ForgetPassword?</Link>
     </form>
   );
 };

@@ -40,7 +40,7 @@
         <h3 style={{ textAlign: "center" }}>It's Free to Sign Up and Get Started.</h3>
         <p style={{ textAlign: "center" , color:"#676767"  }}>
         Already have an account?{" "}
-        <Link to="/signin">Sign in</Link>
+        <Link to="/signin" color="voilet">Sign in</Link>
       </p>      
         <input type="text" name="firstname" placeholder="First Name" onChange={handleChange} required />
         <input type="text" name="lastname" placeholder="Last Name" onChange={handleChange} required />
